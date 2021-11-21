@@ -57,9 +57,6 @@
     flex:1;
   }
 
-  .lower__content {
-  }
-
   .lowerContent__card--container {
       background-color: var(--Very-Dark-Magenta);
       padding: 20px;
@@ -79,7 +76,8 @@
 
   .card--imageStyle {
       border-radius: 45px;
-      height: 65%;
+      min-height: 40px;
+        max-height: 5vh;
   }
 
   .cardProfile--container {
@@ -140,11 +138,14 @@
     .lower__content {
         display: flex;
         justify-content: space-around;
+        /* flex:1; */
+        max-height: 40vh;
     }
 
     .lowerContent__card--container {
         margin: 0 10px;
         flex: 1;
+        max-height: 38vw;
     }
 
     .middle-card {
@@ -157,10 +158,20 @@
 
   }
 
+  @media only screen and (min-width: 700px) {
+    .lowerContent__card--container {
+        max-height: 215px;
+    }
+  }
+
   @media only screen and (min-width: 900px) {
     main {
         width: 90vw;
         margin: auto;
+    }
+
+    .lowerContent__card--container {
+        max-height: 190px;
     }
   }
 
