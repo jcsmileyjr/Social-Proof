@@ -1,6 +1,6 @@
 :root {
     --Very-Dark-Magenta: hsl(300, 43%, 22%);
-    --Soft-Pink: hsl(335, 46%, 95%);
+    --Soft-Pink: hsl(335, 43%, 95%);
     --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
     --Light-Grayish-Magenta: hsl(300, 24%, 96%);
     --White: hsl(0, 0%, 100%);
@@ -19,13 +19,13 @@
   }
 
   .top__content, .lower__content {
-    flex:1;
     margin: 0 20px;
   }
 
   .top__content {
     display: flex;
     flex-direction: column;
+    flex: .5;
   }
 
   h1 {
@@ -66,6 +66,7 @@
 
 
   @media only screen and (min-width: 600px) {
+
     .top__content {
       flex-direction: row;
     }
@@ -75,7 +76,7 @@
     h1, .topContent__content--style {
         text-align: left;
         margin: 0;
-        padding-right: 150px;
+        padding-right: 5vw;
     }
 
     h1 {
@@ -100,4 +101,17 @@
         align-self: flex-end;
     }
 
+  }
+
+  @media only screen and (min-width: 900px) {
+    main {
+        width: 90vw;
+        margin: auto;
+    }
+  }
+
+  @media only screen and (min-width: 1100px) {
+    main {
+        width: 70vw;
+    }
   }
