@@ -122,10 +122,11 @@
         font-size:xxx-large;
     }
     .rating--container {
-        width: 60%;
+        width: 80%;
         display: flex;
         align-content: center;
     }
+    .rating__content--style {flex:1;}
     .topContent__rating {
         display: flex;
         flex-direction: column;
