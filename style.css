@@ -1,6 +1,7 @@
 :root {
     --Very-Dark-Magenta: hsl(300, 43%, 22%);
     --Soft-Pink: hsl(335, 43%, 95%);
+    --Medium-Pink: hsl(333, 80%, 67%);
     --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
     --Light-Grayish-Magenta: hsl(300, 24%, 96%);
     --White: hsl(0, 0%, 100%);
@@ -43,10 +44,6 @@
       color: var(--Dark-Grayish-Magenta);
       text-align: center;
   }
-  .topContent__CTA {
-  }
-
-
   .rating--container {
     background-color: var(--Soft-Pink);
     text-align: center;
@@ -61,12 +58,50 @@
   }
 
   .lower__content {
-    background-color: greenyellow;
+  }
+
+  .lowerContent__card--container {
+      background-color: var(--Very-Dark-Magenta);
+      padding: 20px;
+      margin: 15px 0;
+  }
+
+  .card__upperHalf {
+    display: flex;
+  }
+
+  .card__image--container {
+      height: 10vh;
+      display: flex;
+      align-items: center;
+  }
+
+  .card--imageStyle {
+      border-radius: 45px;
+      height: 65%;
+  }
+
+  .cardProfile--container {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      justify-content: center;
+  }
+
+  .cardProfile__name--style {
+      color: var(--Light-Grayish-Magenta)
+  }
+
+  .cardProfile__job--style {
+      color: var(--Medium-Pink);
+  }
+
+  .card__content--style {
+      color: var(--Light-Grayish-Magenta)
   }
 
 
   @media only screen and (min-width: 600px) {
-
     .top__content {
       flex-direction: row;
     }
