@@ -64,6 +64,7 @@
       background-color: var(--Very-Dark-Magenta);
       padding: 20px;
       margin: 15px 0;
+      border-radius: 10px;
   }
 
   .card__upperHalf {
@@ -134,6 +135,24 @@
     }
     .review-bottom {
         align-self: flex-end;
+    }
+
+    .lower__content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lowerContent__card--container {
+        margin: 0 10px;
+        flex: 1;
+    }
+
+    .middle-card {
+        margin-top: 30px;
+    }
+
+    .bottom-card {
+        margin-top: 60px;
     }
 
   }
