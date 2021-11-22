@@ -19,7 +19,7 @@ This is a solution to the [Social Proof component challenge on Frontend Mentor](
 
 ### Links
 
-- [Live Site URL](https://jcsmileyjr.github.io/FAQ-Accordion/)
+- [Live Site URL](https://jcsmileyjr.github.io/Social-Proof/)
 - [Read the blog post](https://dev.to/jcsmileyjr/frontend-challenge-6-social-proof-component-25e)
 
 ### Built with
