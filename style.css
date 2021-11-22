@@ -16,6 +16,7 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+    font-family: 'Spartan', sans-serif;
     background-color: var(--White);        
     background:
     url("./images/bg-pattern-bottom-desktop.svg") bottom center no-repeat,
@@ -148,29 +149,32 @@
     .lower__content {
         display: flex;
         justify-content: space-around;
-        /* flex:1; */
+        margin-top: 20px;
         max-height: 40vh;
     }
 
     .lowerContent__card--container {
         margin: 0 10px;
         flex: 1;
-        max-height: 38vw;
+        max-height: 50vw;
     }
 
     .middle-card {
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .bottom-card {
-        margin-top: 60px;
+        margin-top: 110px;
     }
 
   }
 
   @media only screen and (min-width: 700px) {
     .lowerContent__card--container {
-        max-height: 215px;
+        max-height: 260px;
+    }
+    .lower__content {
+      margin-top: 0;
     }
   }
 
@@ -179,14 +183,16 @@
         width: 90vw;
         margin: auto;
     }
-
-    .lowerContent__card--container {
-        max-height: 190px;
-    }
   }
 
   @media only screen and (min-width: 1100px) {
     main {
         width: 70vw;
     }
+  }
+
+  @media only screen and (min-width: 1300px) {
+    .lowerContent__card--container {
+      max-height: 240px;
+  }
   }
