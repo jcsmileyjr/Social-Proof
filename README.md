@@ -1,6 +1,6 @@
 # Social Proof component with HTML & CSS
 
-![Image of designs vs what was built](./images/final-desktop-1.PNG)
+![Image of designs vs what was built](./images/final-desktop-4.PNG)
 
 This is a solution to the [Social Proof component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
