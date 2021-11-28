@@ -14,6 +14,7 @@
   main {
     height: 100vh;
     width: 100vw;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     font-family: 'Spartan', sans-serif;
@@ -109,11 +110,14 @@
 
 
   @media only screen and (min-width: 600px) {
+    main {
+      margin: 40px auto;
+    }
     .top__content {
       flex-direction: row;
     }
     .top__content, .lower__content {
-        margin: 0;
+        margin: 0 10px;
     }
     h1, .topContent__content--style {
         text-align: left;
@@ -150,12 +154,13 @@
         display: flex;
         justify-content: space-around;
         margin-top: 40px;
+        min-height: 330px;
     }
 
     .lowerContent__card--container {
         margin: 0 10px;
         flex: 1;
-        max-height: 50vw;
+        height :275px;
     }
 
     .top-card {
@@ -163,36 +168,45 @@
     }
 
     .middle-card {
-        margin-top: 40px;
-        align-self: center;
+      align-self: flex-start;
+      margin-top: 10px;
     }
 
     .bottom-card {
-        margin-top: 110px;
-        align-self: end;
+      align-self: flex-start;
+      margin-top: 20px;
     }
 
   }
 
   @media only screen and (min-width: 700px) {
     .lowerContent__card--container {
-        max-height: 260px;
+        height: 260px;
     }
+  }
+
+  @media only screen and (min-width: 800px){
     .lower__content {
-      /*margin-top: 0;*/
+      min-height: 300px;
     }
+    .lowerContent__card--container {
+      height: 220px;
+    }
+    
   }
 
   @media only screen and (min-width: 900px) {
     main {
-        width: 90vw;
-        margin: auto;
+      width: 90vw;
     }
   }
 
   @media only screen and (min-width: 1100px) {
     main {
         width: 70vw;
+    }
+    .lowerContent__card--container {
+      height: 210px;
     }
   }
 
@@ -201,6 +215,14 @@
       width: 80vw;
     }
     .lowerContent__card--container {
-      max-height: 240px;
+      height: 205px;
   }
+
+  @media only screen and (min-width: 1600px) {
+    main {
+      width: 70vw;
+    }
+    .lowerContent__card--container {
+      height: 225px;
+    }
   }
