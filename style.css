@@ -54,7 +54,7 @@
     text-align: center;
     margin: 10px 0;
     padding: 10px 0;
-    color: var(--Light-Grayish-Magenta);
+    color: var(--Very-Dark-Magenta);
     font-weight: 700;
   }
 
@@ -203,7 +203,7 @@
 
   @media only screen and (min-width: 1100px) {
     main {
-        width: 70vw;
+        width: 85vw;
     }
     .lowerContent__card--container {
       height: 210px;
