@@ -105,7 +105,8 @@
   }
 
   .card__content--style {
-      color: var(--Light-Grayish-Magenta)
+      color: var(--Light-Grayish-Magenta);
+      margin: 0px;
   }
 
 
